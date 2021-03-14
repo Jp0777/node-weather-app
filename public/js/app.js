@@ -7,7 +7,7 @@ weatherForm.addEventListener("submit", (e) => {
     document.getElementById("p1").innerHTML = "Loading..";
 
 
-    fetch("http://localhost:3000/weather?address=" + loc).then((response) => {
+    fetch("/weather?address=" + loc).then((response) => {
         response.json().then((data) => {
             if (data.error)
                 document.getElementById("p1").innerHTML = data.error;

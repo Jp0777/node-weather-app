@@ -5,7 +5,7 @@ const foreCast = require("./utils/forecast");
 const express = require("express");
 const app = express();
 const hbs = require("hbs");
-
+const port = process.env.PORT || 3000;
 app.use(express.static("public"));
 
 const viewsDirPath = path.join(__dirname, "../templates/views");
@@ -93,6 +93,6 @@ app.get("*", (req, res) => {
 
 
 
-app.listen(3000, () => {
-    console.log("Listening on 3000");
+app.listen(port, () => {
+    console.log("Listening on " + port);
 })
