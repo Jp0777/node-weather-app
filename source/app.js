@@ -18,14 +18,14 @@ app.set("view engine", "hbs");
 app.get("/", (req, res) => {
     res.render("home", {
         title: "Weather",
-        name: "Jp"
+        name: "Jayen"
     })
 })
 
 app.get("/help", (req, res) => {
     res.render("help", {
         title: "Help",
-        name: "Jp"
+        name: "Jayen"
     })
 })
 
@@ -33,7 +33,7 @@ app.get("/help", (req, res) => {
 app.get("/about", (req, res) => {
     res.render("about", {
         title: "About Me",
-        name: "Jp"
+        name: "Jayen"
     })
 })
 
@@ -76,7 +76,7 @@ app.get("/weather", (req, res) => {
 app.get("/help/*", (req, res) => {
     res.render("404", {
         title: "404 Error!",
-        name: "Jp",
+        name: "Jayen",
         error: "Help article not found"
     })
 })
@@ -86,7 +86,7 @@ app.get("/help/*", (req, res) => {
 app.get("*", (req, res) => {
     res.render("404", {
         title: "404 Error!",
-        name: "Jp",
+        name: "Jayen",
         error: "Page not found"
     })
 })
