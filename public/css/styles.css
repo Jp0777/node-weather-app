@@ -4,8 +4,6 @@ body {
     color: #333333;
     font-family: arial;
     max-width: 650px;
-    /* background-color: #A683E3 ; */
-    /* background-image: -webkit-linear-gradient(50deg,#A683E3 50%,#E4E9FD 50%); */
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
@@ -31,7 +29,7 @@ body {
 
 
 footer {
-    color: white;
+    color: #333333;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
