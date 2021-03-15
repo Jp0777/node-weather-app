@@ -4,6 +4,8 @@ body {
     color: #333333;
     font-family: arial;
     max-width: 650px;
+    /* background-color: #A683E3 ; */
+    /* background-image: -webkit-linear-gradient(50deg,#A683E3 50%,#E4E9FD 50%); */
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
@@ -16,29 +18,11 @@ body {
 }
 
 
-.current .city {
-    color: #333333;
-    font-size: 5vh;
-    font-weight: 500;
-    margin-bottom: 5px;
 
-}
-
-
-.current .temp {
-    color: #333333;
-    font-size: 5vh;
-    font-weight: 500;
-    margin: 20px 0px;
-}
-
-.current .temp span {
-    font-weight: 500;
-}
 
 .current .weather {
-    color: #333333;
-    font-size: 5vh;
+    color:#333333;
+    font-size: 4vh;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -47,7 +31,7 @@ body {
 
 
 footer {
-    color: #888888;
+    color: white;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -56,6 +40,7 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+
 }
 
 h1 {
@@ -64,7 +49,7 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: #333333;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -82,7 +67,7 @@ input {
 button {
     cursor: pointer;
     border: 1px solid #888888;
-    background: #888888;
-    color: white;
+    background: #333333;
+    color: white ;
     padding: 8px;
 }
