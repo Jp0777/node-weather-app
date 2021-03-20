@@ -9,15 +9,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh
+    
 }
 
 .main-content {
     flex-grow: 1;
 }
 
-.current{
-    text-align: center;
-}
+
 
 
 
@@ -37,11 +36,13 @@ footer {
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+   text-align:center
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    text-align: center;
 
 }
 
