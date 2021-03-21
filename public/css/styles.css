@@ -1,5 +1,4 @@
 
-
 body {
     color: #333333;
     font-family: arial;
@@ -7,6 +6,7 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
+    background-image: url("/img/Caribbean-beach.jpg");
     flex-direction: column;
     min-height: 100vh
     
@@ -14,21 +14,15 @@ body {
 
 .main-content {
     flex-grow: 1;
+  
 }
-
-
-
-
-
 
 .current .weather {
     color:#333333;
     font-size: 4vh;
-    font-weight: 500;
+    font-weight: 1000;
     margin-bottom: 15px;
 }
-
-
 
 
 footer {
@@ -74,6 +68,3 @@ button {
     color: white ;
     padding: 8px;
 }
-
-
-

@@ -10,7 +10,14 @@
     <title>Weather</title>
 </head>
 <style>
+    .current {
+        background: url("/img/Caribbean-beach.jpg");
+        opacity: 0.7;
+        height: 100%;
+        text-align: center;
+        margin: 5px;
 
+    }
 </style>
 
 <body>
@@ -20,17 +27,12 @@
             <input type="text" placeholder="location">
             <button>Search</button>
         </form>
-        <div style="text-align:center">
-            <b>
-                <p id="p1" style="font-size:3vh"></p>
-            </b>
-        </div>
+
+        <p id="p1" style="font-size:3vh;text-align:center"></p>
 
 
 
-
-
-        <div class="current" style="text-align:center">
+        <div class="current">
             <div class=" weather" id="city"></div>
             <div class="weather" id="temp"></div>
             <img id="p3" src="" width="">
