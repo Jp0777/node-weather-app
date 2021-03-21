@@ -23,7 +23,8 @@ body {
 .current .weather {
     color:#333333;
     font-size: 4vh;
-    font-weight: 1000;
+
+    font-weight: bolder;
     margin-bottom: 15px;
 }
 
