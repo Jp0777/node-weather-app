@@ -14,7 +14,8 @@ weatherForm.addEventListener("submit", (e) => {
             else {
                 document.getElementById("city").innerHTML = data.loc;
                 document.getElementById("p1").innerHTML = "";
-                document.getElementById("weather").innerHTML = data.desc;
+                document.getElementById("weather").innerText = data.desc;
+                document.getElementById("p3").src = "http://openweathermap.org/img/w/" + data.icon + ".png";
                 document.getElementById("temp").innerHTML = "Temp:" + data.temp + " <sup>0</sup>C";
                 document.getElementById("press").innerHTML = "Pressure:" + data.pressure + " hPa";
                 document.getElementById("feelslike").innerHTML = "Feels like:" + data.feelslike + " <sup>0</sup>C";

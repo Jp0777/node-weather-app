@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Lobster&display=swap');
 
 body {
     color: #333333;
@@ -8,7 +9,9 @@ body {
     display: flex;
     background-image: url("/img/Caribbean-beach.jpg");
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    font-family: 'Kanit', sans-serif;
+
     
 }
 
