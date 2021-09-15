@@ -9,6 +9,7 @@ weatherForm.addEventListener("submit", (e) => {
 
     fetch("/weather?address=" + loc).then((response) => {
         response.json().then((data) => {
+            console.log(data)
             if (data.error)
                 document.getElementById("p1").innerHTML = data.error;
             else {
